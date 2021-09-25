@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Details For CBT Based Training</title>
+<Body background="D:\download/bw.jpg">
+<h1> Details</h1> <br><br>
+</head>
+<body>
+<form action="Thank_You.html" method="POST">
+1.Employee ID* <br><br> <input type = "text" name = "employeeId" />
+<br> <br> <br><br>
+2.What should we call you* <br><br> <input type = "text" name = "employeeName" />
+<br><br> <br><br>
+<label for="Contact">3.Enter your phone number*</label> <br><br>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+<br><br> <br><br>
+<label for="email">4.What is your Email ID*</label><br><br>
+<input type="email" id="email"  pattern="[A-Za-z]" size="20" required>
+<button name="button" type="button">@sonata-software.com</button>
+<button name="button" type="button">@gmail.com</button>
+<button name="button" type="button">@yahoo.com</button>
+<br> <br> <br><br>
+
+<label for="Technology">5.Technology</label><br><br>
+<select name="technology" id="technology">
+<option value = "none" selected disabled hidden>
+Select a Technology
+<option value="Web Development">Web Development</option>
+<option value="Java">Java</option>
+<option value="RDBMS">RDBMS</option>
+<option value="Microsoft Dynamics">Microsoft Dynamics</option>
+<option value="Dot Net">Dot Net</option>
+</select>
+
+<br> <br> <br><br>
+
+
+<label for="Courses">6.Courses</label><br><br>
+<select name="Courses" id="Courses">
+<option value = "none" selected disabled hidden>
+Select a Course
+</option>
+<option value=".Net Core">.Net Core</option>
+<option value="Devops">Devops</option>
+<option value="SQL">SQL</option>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JavaScript">JavaScript</option>
+<option value="JSON">JSON</option>
+<option value="Business Intelligence">Business Intelligence</option>
+<option value="Dynamics 365">Dynamics 365</option>
+<option value="Software Testing">Software Testing</option>
+<option value="Cloud">Cloud</option>
+<option value="Fresher Tutorials">Fresher Tutorials</option>
+<option value="Agile">.Net Core</option>
+<option value="Software Engineering">Software Engineering</option>
+<option value="GIT">GIT</option>
+</select>
+
+<br> <br> <br><br>
+<p>
+7.Preferred Dates*
+</p>
+<label for="dataStart">Start Date</label>
+<input type="date" min="2021-09-21" style="width: 130px;" class="datepicker" id="dataStart" size="10" name="dataStart"  />
+
+ <br> <br>
+<label for="dataEnd">End Date</label>
+<input type="date" max="2021-10-22" style="width: 130px;" class="end_date" id="dataEnd" size="10" name="dataEnd"  />
+<br><br><br><br>
+<p>
+  8.Other Facilities
+</p>
+<input type="checkbox" id="facility1" name="facility1" value="Virtual Lab">
+<label for="facility1"> Virtual Lab</label><br>
+<input type="checkbox" id="facility2" name="facility2" value="Online Quiz">
+<label for="facility2">Online Quiz</label><br>
+<input type="checkbox" id="facility3" name="facility3" value="Online Instructor(to clarify doubts)">
+<label for="facility3">Online Instructor(to clarify doubts) </label><br><br>
+
+
+
+<style>
+#cb_span{color:red;}
+</style>
+<input type="checkbox"><span id="cb_span">I hereby declare that all the above details provided are true.</span><br><br>
+
+<input type = "submit" name = "submit" value = "Submit" />
+</form>
+</body>
+</html>
