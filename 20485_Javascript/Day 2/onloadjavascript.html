@@ -1,0 +1,17 @@
+<html>
+<body onload= "onloadex()">
+<p id="demo"></p>
+<script>
+function onloadex() {
+let text;
+let person = prompt("Enter your name:");
+if (person == null || person == "") {
+text = "User cancelled the prompt.";
+} else {
+text = "Welcome " + person ;
+}
+document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
