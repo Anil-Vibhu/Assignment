@@ -1,0 +1,2 @@
+module assignmentday2 {
+}
